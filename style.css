@@ -1,0 +1,19 @@
+/*
+Theme Name: GoDev Tecnologia
+Author: GoDev
+Author URI: godevtecologia.com.br
+Description: Tema desenvolvido para ser clean e agilizar o desenvolvimento da aplicação
+Version: 1.0.0
+*/
+
+.fl-logo-img {
+ max-width:50%;
+}
+.pronto{
+	max-width:50%;
+}
+/* formularios*/
+#nome{
+	width:49%;
+	float:left;
+}

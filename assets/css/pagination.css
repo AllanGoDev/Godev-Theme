@@ -1,0 +1,66 @@
+/*---------------------- Paginação ------------------------------------*/
+
+.custom-paginacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.custom-paginacao a,
+.custom-paginacao span {
+    padding: 6px 10px;
+    border: none;
+    margin-left: -1px;
+    text-decoration: none;
+    color: #424B93;
+    background-color: transparent;
+    font-size: 22px;
+    margin: 0 7px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px !important;
+}
+
+.custom-paginacao a:hover,
+.custom-paginacao span:hover {
+    background-color: #81060A;
+    color: #ffffff;
+}
+
+.custom-paginacao span.current {
+    background-color: #81060A;
+    color: #ffffff;
+}
+
+.custom-paginacao span.dots {
+    /*color: #428bca;*/
+    color: #424B93;
+}
+
+.custom-paginacao a:first-child,
+.custom-paginacao span:first-child {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.custom-paginacao a:last-child,
+.custom-paginacao span:last-child {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .custom-paginacao {
+        display: inline-block;
+    }
+    .custom-paginacao a,
+    .custom-paginacao span {
+        margin-bottom: 10px !important;
+        display: inline-block;
+        font-size: 20px;
+    }
+}
